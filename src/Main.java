@@ -13,7 +13,12 @@ public class Main {
         //do nothing
         //exit on close
         frame.setResizable(false); // resizible
+        //icon
+        frame.setVisible(true);
 
-        frame.setVisible(true); // make visible
+        ImageIcon image = new ImageIcon("calendar.png"); //not work, path is correct
+        frame.setIconImage(image.getImage());
+
+         // make visible
     }
 }
