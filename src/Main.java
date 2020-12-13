@@ -9,6 +9,10 @@ public class Main {
         JFrame frame = new JFrame("Hello"); // create frame / w title
         frame.setSize(new Dimension(200,200)); // set size
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        //Hide_on close
+        //do nothing
+        //exit on close
+        frame.setResizable(false); // resizible
 
         frame.setVisible(true); // make visible
     }
