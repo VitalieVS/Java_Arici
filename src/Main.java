@@ -8,6 +8,7 @@ public class Main {
         //frame
         JFrame frame = new JFrame("Hello"); // create frame / w title
         frame.setSize(new Dimension(200,200)); // set size
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         frame.setVisible(true); // make visible
     }
