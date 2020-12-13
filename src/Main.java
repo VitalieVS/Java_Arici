@@ -6,8 +6,9 @@ public class Main {
         System.out.println("work");
 
         //frame
-        JFrame frame = new JFrame(); // create
+        JFrame frame = new JFrame("Hello"); // create frame / w title
         frame.setSize(new Dimension(200,200)); // set size
+
         frame.setVisible(true); // make visible
     }
 }
